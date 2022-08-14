@@ -1,0 +1,15 @@
+challenge_id = "over_easy"
+
+challenge_name = "Over Easy"
+
+challenge_description = '''
+SUDDEN DEATH: This one will be over easy, don't get your head scrambled and solve it fast!
+'''
+
+challenge_spoilers = '''
+This is a very simple challenge that writes an arbitrary number of bytes to a 32 byte stack buffer.
+The player has to write the individual bytes as text integers. While writing the bytes to the
+stack, the loop variables will be overwritten, so the player will have to deal with this by writing
+the correct value back instead of just filling with a constant. To get a shell, the player can
+simply overwrite the bottom byte of the return address to point to the win function.
+'''

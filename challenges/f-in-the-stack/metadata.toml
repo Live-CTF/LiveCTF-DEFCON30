@@ -1,0 +1,15 @@
+challenge_id = "f_in_the_stack"
+
+challenge_name = "F in the Stack"
+
+challenge_description = '''
+TODO: create a description here for
+the challenge that is really cool
+and interesting
+'''
+
+challenge_spoilers = '''
+TODO: explain the challenge
+here for the commentators
+so that they can talk about it
+'''

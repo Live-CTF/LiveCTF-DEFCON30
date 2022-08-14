@@ -1,0 +1,13 @@
+[package]
+name = "submitter"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+reqwest = { version = "0.11.11", default-features = false, features = ["json", "rustls-tls"] }
+serde = { version = "1.0.140", features = ["derive"] }
+toml = "0.5.9"
+tokio = { version = "1.20.0", features = ["full"] }
+serde_json = "1.0.82"

@@ -1,0 +1,13 @@
+challenge_id = "nerd_sniped"
+
+challenge_name = "Nerd Sniped"
+
+challenge_description = '''
+I've been stuck trying to solve this puzzle forever! Can you help out? I'll give you a shell if you can solve it!
+'''
+
+challenge_spoilers = '''
+TODO: explain the challenge
+here for the commentators
+so that they can talk about it
+'''

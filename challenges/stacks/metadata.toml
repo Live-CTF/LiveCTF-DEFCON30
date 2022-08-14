@@ -1,0 +1,33 @@
+
+challenge_id = "stacks"
+
+challenge_name = "Stacks"
+
+challenge_description = '''
+Welcome to Stacks: A LiveCTF RPN calculator!
+'''
+
+challenge_spoilers = '''
+This challenge is a DEF CON OpenCTF challenge from 2011 by richthofen that I
+don't believe ever got used. Fuzyll re-wrote it in 2014 for Ghost in the Shellcode,
+but it didn't get used then, either. Maybe this time it'll see the light of day?
+Also, hopefully people will find it interesting since it's kind of a time
+capsule. We don't write pwnables like this anymore - they're generally a lot
+more difficult!
+
+I seem to recall the intended solution being something like this:
+
+1. Create a bunch of stacks using :new
+2. Use :top to leak out their location on the heap (off-by-one will print the address)
+3. Use operations to overwrite pointer in the stack struct to leak out the "stack canary"
+4. Craft a custom stack that can be used to write to an address
+5. Use the custom stack to write to something like the GOT
+6. Trigger a jump back to your custom stack's data area
+7. ??? (heap should be executable)
+8. PROFIT!
+
+There should hopefully be an alternative solution requiring a heap metadata
+overwrite and using :del to potentially trigger a double-free or something as
+well, but I don't believe that was ever tested or landed. This'll either be
+a red herring or a surprise conclusion!
+'''

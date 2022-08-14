@@ -1,0 +1,12 @@
+challenge_id = "fast_updater"
+
+challenge_name = "Fast Updater"
+
+challenge_description = '''
+We need updates, please get the updater working!
+'''
+
+challenge_spoilers = '''
+A very basic challenge that needs a static username and password reversed out, followed
+by taking 4096 bytes of shellcode which is executed directly.
+'''

@@ -1,0 +1,15 @@
+challenge_id = "quick_cast"
+
+challenge_name = "Quick Cast"
+
+challenge_description = '''
+This one seems a bit confused about types
+'''
+
+challenge_spoilers = '''
+This is a very simple type confusion challenge. Players can show or edit values
+as integers or strings, but it doesn't do any verification on the type. If the
+value is anything that isn't the default zero, editing as a string will allow
+overwriting arbitrary memory. Editing as an integer then displaying as a string
+will allow leaking of arbitrary memory contents.
+'''

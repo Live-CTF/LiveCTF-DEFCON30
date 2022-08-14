@@ -1,0 +1,16 @@
+challenge_id = "fairy_nuff"
+
+challenge_name = "Fairy Nuff"
+
+challenge_description = '''
+Help Fairy Nuff brew the Magical Esscense potion and save the realm!
+'''
+
+challenge_spoilers = '''
+This is a shellcoding challenge mixed with an interpreter challenge. The
+player must perform actions to set up their shellcode in memory, which will
+be executed when they say their potion is ready. The actions can move to
+different locations in the buffer, or perform math on the current byte. The
+player will have to quickly figure out how to get any byte using the four
+different arithmetic operations they can perform.
+'''

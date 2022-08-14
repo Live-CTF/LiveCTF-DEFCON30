@@ -1,0 +1,16 @@
+challenge_id = "seek_and_destroy"
+
+challenge_name = "Seek and Destroy"
+
+challenge_description = '''
+Search, seek, and destroy those file handles! Now that's what I call a metal solution.
+'''
+
+challenge_spoilers = '''
+Hint: When was the last time you looked at yourself in the mirror?
+
+This is a basic file open/read/seek menu, and since Linux is cool, you can open /proc/self/<etc>
+and determine information about your process. From there, you can read and write to /proc/self/maps
+to determine where in the binary your memory goes, and then you can just write code into /proc/self/mem
+to get execution.
+'''

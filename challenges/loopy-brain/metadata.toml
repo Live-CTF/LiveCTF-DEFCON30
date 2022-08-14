@@ -1,0 +1,15 @@
+challenge_id = "loopy-brain"
+
+challenge_name = "Loopy Brain"
+
+challenge_description = '''
+Everyone loves esolangs, right? Well me too, so I went back and implemented an interpreter for the most classic one. I'm a little bit short on memory though so you will have to work with what we have.
+'''
+
+challenge_spoilers = '''
+This challenge implements a Brainfuck interpreter that takes a program from the user and runs it.
+The memory layout of the interpreter is such that the data array comes after the program array in memory.
+Additionally, the interpreter has a bug where if you have an unmatched "[" in your BF program, the instruction pointer will continue past the end of the program buffer into the data buffer.
+Unfortunately the players are limited to a program that's only nine characters long. They will have to use this to write a small stager to write a larger BF program into the data buffer and then use the bug to jump into the data buffer and continue execution there.
+From here they can easily get arbitrary read/write on the stack to first leak the stack cookie and base address and finally write a ROP chain.
+'''

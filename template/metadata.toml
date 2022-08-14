@@ -1,0 +1,15 @@
+challenge_id = "challenge_template"
+
+challenge_name = "Challenge Template"
+
+challenge_description = '''
+TODO: create a description here for
+the challenge that is really cool
+and interesting
+'''
+
+challenge_spoilers = '''
+TODO: explain the challenge
+here for the commentators
+so that they can talk about it
+'''

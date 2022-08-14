@@ -1,0 +1,16 @@
+challenge_id = "no_roplem"
+
+challenge_name = "No ROPlem"
+
+challenge_description = '''
+Sorry, I dropped all the code on the floor. You will have to put this all together again.
+'''
+
+challenge_spoilers = '''
+This challenge is about building ROP chains from almost random data.
+The player can input a 15 byte RC4 key. The key will be used to encrypt a one megabyte buffer of all zeroes.
+After the encryption, a return instruction is inserted at every 16 bytes to make it all a little bit easier to make sure there are plenty of gadgets.
+The buffer is executable (but not writable) and the address of this buffer is given to the player.
+Finally, the player can input a one kilobyte ROP chain and their goal is to use all the gadgets in the large buffer to gain code execution.
+One way to solve the challenge is to recreate the gadget generation algorithm and then use some basic pattern matching to look for a small set of suitable gadgets to use for the chain and apply this while iterating through random keys.
+'''

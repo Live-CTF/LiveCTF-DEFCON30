@@ -1,0 +1,14 @@
+challenge_id = "open_to_interpretation"
+
+challenge_name = "Open To Interpretation"
+
+challenge_description = '''
+I heard interpreters were all the rage these days, so I interpreted that to mean "6 instructions should be good enough for anyone."
+'''
+
+challenge_spoilers = '''
+This is a simple BF-like interpreter challenge, but with no loops or input.
+There is a bug in the position increment function where it checks a signed char against 128
+which always succeeds because signed char max is 127. From here, you can clobber memory
+below the program storage and leak/overwrite functions in the GOT to achieve code execution.
+'''

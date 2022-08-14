@@ -1,0 +1,6 @@
+#!/bin/sh
+
+# Requires (for ubuntu 22.04): qemu-user libc6-arm64-cross
+
+BIN=${1:-./pacman}
+exec qemu-aarch64 -cpu max -L /usr/aarch64-linux-gnu/ ${BIN}

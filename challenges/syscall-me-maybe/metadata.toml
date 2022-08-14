@@ -1,0 +1,22 @@
+challenge_id = "syscall-me-maybe"
+
+challenge_name = "Syscall Me Maybe"
+
+challenge_description = '''
+Why can't I hold
+
+All of these syscalls?
+'''
+
+challenge_spoilers = '''
+Hint: how do you get a buffer where you want / get data into that buffer?
+
+Arbitrary syscall server here's a possible solution:
+1. mmap a pointer
+2. read stdin to it with "/bin/bash"
+3. execve with that buffer as the program
+4. win!!
+
+teams might try all sorts of weird syscalls, organizers might want
+to have a syscall table open on the side
+'''

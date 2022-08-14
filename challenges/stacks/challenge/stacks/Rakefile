@@ -1,0 +1,33 @@
+require "rake/clean"
+
+# definitions
+cc = "gcc"
+cflags = "-Wall -Wshadow -Wextra -std=c99 -m32"
+ldflags = "-Wl,-z,execstack -Wl,-z,norelro -no-pie"
+defines = "-D_GNU_SOURCE -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=0"
+incpath = "../libctf"
+sources = FileList["*.c"]
+objects = sources.ext("o")
+service = "stacks"
+
+# tasks
+CLEAN.include("*.o")
+CLOBBER.include("#{service}")
+task :release => "#{service}" do
+    cflags += " -g"
+end
+task :debug do
+    Rake::Task["#{service}"].invoke
+end
+task :default => ["#{service}"]
+
+# rules
+rule ".o" => ".c" do |t|
+    sh "#{cc} #{cflags} #{defines} -I#{incpath} -c #{t.source} -o #{t.name}"
+end
+file "libctf.o" => ["#{incpath}/ctf.h", "#{incpath}/ctf.c"] do
+    sh "#{cc} #{cflags} #{defines} -I#{incpath} -c #{incpath}/ctf.c -o libctf.o"
+end
+file "#{service}" => objects.push("libctf.o") do
+    sh "#{cc} #{cflags} #{defines} #{ldflags} #{objects} -o #{service}"
+end

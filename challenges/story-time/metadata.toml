@@ -1,0 +1,15 @@
+challenge_id = "story_time"
+
+challenge_name = "Story Time"
+
+challenge_description = '''
+After a long day of hacking harder, it will be nice to decompress and listen to a nice story!
+'''
+
+challenge_spoilers = '''
+Hint: Are you RLE sure you understand this compression scheme?
+
+This is a decompression length bug which overwrites a function pointer in the story structure
+to achieve code execution. You have to call the decompression function twice, once to overwrite the pointer,
+and once to call the overwritten pointer.
+'''

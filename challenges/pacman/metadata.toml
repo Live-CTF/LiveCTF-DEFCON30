@@ -1,0 +1,33 @@
+challenge_id = "pacman"
+
+challenge_name = "PACman"
+
+challenge_description = '''
+A brand new interactive package manager for quickly and securely distributing your programs!
+'''
+
+challenge_spoilers = '''
+Hint: These authenticated pointers look pretty hand-rolled, I wonder if they're created securely.
+
+tl;dr: This challenge involves (ab)using an intentional ARM Pointer Authentication Code (PAC) oracle to forge a signed
+function pointer.
+
+It's worth noting that the PAC usage in the program is all hand-rolled for this challenge - it's not compiler added,
+and this manual misuse is what allows for the bug.
+
+Premise:
+This challenge is supposed to be a simple package manager, with the ability to
+1) build a package comprised of files and scripts (packs into a simple TLV format) and
+2) install a built package
+
+Competitors are given a binary built with debug symbols, as the source for the challenge is ~400LOC and asking them to
+reverse the entire thing in addition to identifying and exploiting the bug feels like a bit much.
+
+Solution:
+The reading and handling of files when building a package contains an unbounded heap OOB write which lets players
+overwrite a function pointer which is then signed by the program.
+
+Using the same overflow when installing lets them corrupt the function pointer that is called to install the "object"
+allowing them to invoke scripts (with type-confused file object, whose data field happens to align with the script
+object's body).
+'''
