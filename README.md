@@ -4,22 +4,22 @@ Repository for storing challenges, infrastructure notes, streaming configuration
 
 ## Challenges used in LiveCTF
 
-| #                   | Challenge Name                                     | Competitors                            | Victor                    |
-|---------------------|----------------------------------------------------|----------------------------------------|---------------------------|
-| Round of 16: 1      | [syscall-me-maybe](./challenges/syscall-me-maybe)             | Shellphish vs PTB_WTL                  | Shellphish                |
-| Round of 16: 2      | [open-to-interpretation](./challenges/open-to-interpretation) | StarBugs vs ./V /home/r/.bin/tw        | StarBugs                  |
-| Round of 16: 3      | [nopcoing](./challenges/nopcoing)                             | OSUSEC vs Maple Mallard Magistrates    | Maple Mallard Magistrates |
-| Round of 16: 4      | [nerd-sniped](./challenges/nerd-sniped)                       | the new organizers vs Balsn.217@TSJ.tw | the new organizers        |
-| Round of 16: 5      | [fairy-nuff](./challenges/fairy-nuff)                         | DiceGuesser vs Sauercloud              | Sauercloud                |
-| Round of 16: 6      | [seek-and-destroy](./challenges/seek-and-destroy)             | 侍‎ vs perfect r✪✪✪t                    | perfect r✪✪✪t             |
-| Round of 16: 7      | [nvulns](./challenges/nvulns)                                 | r3kapig vs Water Paddler               | r3kapig                   |
-| Round of 16: 8      | [quick-cast](./challenges/quick-cast)                         | Katzebin vs Straw Hat                  | Straw Hat                 |
-| Quarter-Finals: 1   | [story-time](./challenges/story-time)                         | StarBugs vs the new organizers         | StarBugs                  |
-| Quarter-Finals: 2   | [stacks](./challenges/stacks)                                 | Shellphish vs Maple Mallard Magistrates| Maple Mallard Magistrates |
-| Quarter-Finals: 3   | [pacman](./challenges/pacman)                                 | r3kapig vs Sauercloud                  | [Went to sudden death]    |
-| Quarter-Finals: 3.5 | [over-easy](./challenges/over-easy)                           | r3kapig vs Sauercloud                  | r3kapig                   |
+| #                   | Challenge Name                                                | Competitors                             | Victor                    |
+|---------------------|---------------------------------------------------------------|-----------------------------------------|---------------------------|
+| Round of 16: 1      | [syscall-me-maybe](./challenges/syscall-me-maybe)             | Shellphish vs PTB_WTL                   | Shellphish                |
+| Round of 16: 2      | [open-to-interpretation](./challenges/open-to-interpretation) | StarBugs vs ./V /home/r/.bin/tw         | StarBugs                  |
+| Round of 16: 3      | [nopcoing](./challenges/nopcoing)                             | OSUSEC vs Maple Mallard Magistrates     | Maple Mallard Magistrates |
+| Round of 16: 4      | [nerd-sniped](./challenges/nerd-sniped)                       | the new organizers vs Balsn.217@TSJ.tw  | the new organizers        |
+| Round of 16: 5      | [fairy-nuff](./challenges/fairy-nuff)                         | DiceGuesser vs Sauercloud               | Sauercloud                |
+| Round of 16: 6      | [seek-and-destroy](./challenges/seek-and-destroy)             | 侍‎ vs perfect r✪✪✪t            | perfect r✪✪✪t             |
+| Round of 16: 7      | [nvulns](./challenges/nvulns)                                 | r3kapig vs Water Paddler                | r3kapig                   |
+| Round of 16: 8      | [quick-cast](./challenges/quick-cast)                         | Katzebin vs Straw Hat                   | Straw Hat                 |
+| Quarter-Finals: 1   | [story-time](./challenges/story-time)                         | StarBugs vs the new organizers          | StarBugs                  |
+| Quarter-Finals: 2   | [stacks](./challenges/stacks)                                 | Shellphish vs Maple Mallard Magistrates | Maple Mallard Magistrates |
+| Quarter-Finals: 3   | [pacman](./challenges/pacman)                                 | r3kapig vs Sauercloud                   | [Went to sudden death]    |
+| Quarter-Finals: 3.5 | [over-easy](./challenges/over-easy)                           | r3kapig vs Sauercloud                   | r3kapig                   |
 | Quarter-Finals: 4   | [no-roplem](./challenges/no-roplem)                           | Straw Hat vs perfect r✪✪✪t             | perfect r✪✪✪t             |
-| Semi-Finals: 1      | [aes-of-spades](./challenges/aes-of-spades)                   | Maple Mallard Magistrates vs StarBugs  | StarBugs                  |
+| Semi-Finals: 1      | [aes-of-spades](./challenges/aes-of-spades)                   | Maple Mallard Magistrates vs StarBugs   | StarBugs                  |
 | Semi-Finals: 2      | [loopy-brain](./challenges/loopy-brain)                       | r3kapig vs perfect r✪✪✪t               | [Went to sudden death]    |
 | Semi-Finals: 2.5    | [fast-updater](./challenges/fast-updater)                     | r3kapig vs perfect r✪✪✪t               | perfect r✪✪✪t             |
 | Finals              | [f-in-the-stack](./challenges/f-in-the-stack)                 | StarBugs vs perfect r✪✪✪t              | StarBugs                  |
