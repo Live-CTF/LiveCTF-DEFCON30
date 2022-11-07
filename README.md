@@ -8,7 +8,7 @@ Repository for storing challenges, infrastructure notes, streaming configuration
 |---------------------|---------------------------------------------------------------|-----------------------------------------|---------------------------|
 | Round of 16: 1      | [syscall-me-maybe](./challenges/syscall-me-maybe)             | Shellphish vs PTB_WTL                   | Shellphish                |
 | Round of 16: 2      | [open-to-interpretation](./challenges/open-to-interpretation) | StarBugs vs ./V /home/r/.bin/tw         | StarBugs                  |
-| Round of 16: 3      | [nopcoing](./challenges/nopcoing)                             | OSUSEC vs Maple Mallard Magistrates     | Maple Mallard Magistrates |
+| Round of 16: 3      | [nopcoing](./challenges/nopcoding)                             | OSUSEC vs Maple Mallard Magistrates     | Maple Mallard Magistrates |
 | Round of 16: 4      | [nerd-sniped](./challenges/nerd-sniped)                       | the new organizers vs Balsn.217@TSJ.tw  | the new organizers        |
 | Round of 16: 5      | [fairy-nuff](./challenges/fairy-nuff)                         | DiceGuesser vs Sauercloud               | Sauercloud                |
 | Round of 16: 6      | [seek-and-destroy](./challenges/seek-and-destroy)             | 侍‎ vs perfect r✪✪✪t            | perfect r✪✪✪t             |
