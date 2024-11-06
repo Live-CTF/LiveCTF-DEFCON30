@@ -24,7 +24,9 @@ Repository for storing challenges, infrastructure notes, streaming configuration
 | Semi-Finals: 2.5    | [fast-updater](./challenges/fast-updater)                     | r3kapig vs perfect r✪✪✪t               | perfect r✪✪✪t             |
 | Finals              | [f-in-the-stack](./challenges/f-in-the-stack)                 | StarBugs vs perfect r✪✪✪t              | StarBugs                  |
 
+## Challenge Binaries
 
+If you're interested in playing on the exact challenge binaries used during each round, you can either build them yourself as described below, or look in the `handouts/` subfolder of the [release](https://github.com/Live-CTF/LiveCTF-DEFCON30/releases/tag/defcon30).
 
 ## Challenge structure
 
