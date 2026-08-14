@@ -13,3 +13,5 @@ Additionally, the interpreter has a bug where if you have an unmatched "[" in yo
 Unfortunately the players are limited to a program that's only nine characters long. They will have to use this to write a small stager to write a larger BF program into the data buffer and then use the bug to jump into the data buffer and continue execution there.
 From here they can easily get arbitrary read/write on the stack to first leak the stack cookie and base address and finally write a ROP chain.
 '''
+
+challenge_authors = ["zetatwo"]

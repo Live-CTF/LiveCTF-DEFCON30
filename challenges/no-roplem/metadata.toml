@@ -14,3 +14,5 @@ The buffer is executable (but not writable) and the address of this buffer is gi
 Finally, the player can input a one kilobyte ROP chain and their goal is to use all the gadgets in the large buffer to gain code execution.
 One way to solve the challenge is to recreate the gadget generation algorithm and then use some basic pattern matching to look for a small set of suitable gadgets to use for the chain and apply this while iterating through random keys.
 '''
+
+challenge_authors = ["zetatwo"]

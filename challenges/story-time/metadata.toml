@@ -13,3 +13,5 @@ This is a decompression length bug which overwrites a function pointer in the st
 to achieve code execution. You have to call the decompression function twice, once to overwrite the pointer,
 and once to call the overwritten pointer.
 '''
+
+challenge_authors = ["psifertex"]

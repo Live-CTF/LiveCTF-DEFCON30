@@ -14,3 +14,5 @@ different locations in the buffer, or perform math on the current byte. The
 player will have to quickly figure out how to get any byte using the four
 different arithmetic operations they can perform.
 '''
+
+challenge_authors = ["rusty"]

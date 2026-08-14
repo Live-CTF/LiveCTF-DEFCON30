@@ -12,3 +12,5 @@ There is a bug in the position increment function where it checks a signed char 
 which always succeeds because signed char max is 127. From here, you can clobber memory
 below the program storage and leak/overwrite functions in the GOT to achieve code execution.
 '''
+
+challenge_authors = ["negasora"]

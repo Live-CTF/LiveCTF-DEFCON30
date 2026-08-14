@@ -14,3 +14,5 @@ and determine information about your process. From there, you can read and write
 to determine where in the binary your memory goes, and then you can just write code into /proc/self/mem
 to get execution.
 '''
+
+challenge_authors = ["zetatwo"]

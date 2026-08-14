@@ -31,3 +31,5 @@ overwrite and using :del to potentially trigger a double-free or something as
 well, but I don't believe that was ever tested or landed. This'll either be
 a red herring or a surprise conclusion!
 '''
+
+challenge_authors = ["fuzyll"]

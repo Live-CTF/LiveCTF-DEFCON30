@@ -31,3 +31,5 @@ Using the same overflow when installing lets them corrupt the function pointer t
 allowing them to invoke scripts (with type-confused file object, whose data field happens to align with the script
 object's body).
 '''
+
+challenge_authors = ["kallsyms"]

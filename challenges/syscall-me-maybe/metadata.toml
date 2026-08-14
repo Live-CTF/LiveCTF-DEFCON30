@@ -20,3 +20,5 @@ Arbitrary syscall server here's a possible solution:
 teams might try all sorts of weird syscalls, organizers might want
 to have a syscall table open on the side
 '''
+
+challenge_authors = ["glenns"]

@@ -13,3 +13,5 @@ value is anything that isn't the default zero, editing as a string will allow
 overwriting arbitrary memory. Editing as an integer then displaying as a string
 will allow leaking of arbitrary memory contents.
 '''
+
+challenge_authors = ["rusty"]
